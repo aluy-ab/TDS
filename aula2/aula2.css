@@ -1,0 +1,57 @@
+h1{
+    color: steelblue;
+}
+
+@media (min-width: 576px){
+    h1{
+        color:blueviolet;
+    }
+}
+
+.btn-primary{
+    background-color: indianred;
+}
+
+.container{
+    background-color:plum;
+    border: 5px dotted blueviolet;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.container-fluid{
+    background-color: violet;
+}
+
+.container-sm{
+    background-color: wheat;
+    margin-bottom: 30px;
+    border: 2px solid blueviolet;
+}
+
+.row{
+    border: 2px solid wheat;
+    height: 100px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.col, .col-4, .col-2, .col-3{
+    border: 2px dashed indianred;
+    height: 100%;
+    margin: 0px;
+}
+
+.largura-limitada{
+    height: 250px;
+    width: 500px;
+    border-color: brown;
+}
+
+.largura-limitada .row{
+    height: 100%;
+}
+
+.col-3{
+    height: 50px;
+}
