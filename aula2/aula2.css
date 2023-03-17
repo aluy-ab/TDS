@@ -21,12 +21,14 @@ h1{
 
 .container-fluid{
     background-color: violet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .container-sm{
     background-color: wheat;
     margin-bottom: 30px;
     border: 2px solid blueviolet;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .row{
@@ -45,13 +47,14 @@ h1{
 .largura-limitada{
     height: 250px;
     width: 500px;
-    border-color: brown;
+    border-color:steelblue;
 }
 
 .largura-limitada .row{
     height: 100%;
 }
 
-.col-3{
+.col-4{
     height: 50px;
+    font-style: oblique;
 }
