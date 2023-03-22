@@ -2,41 +2,41 @@ h1{
     text-align: center;
 }
 
-.col-conf{
+.col{
     margin: 5px;
     padding: 15px;
-    border: 1px solid green;
-    text-align: center;
+    border-width: 1px;
+    border-style: solid;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.bi{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.col-conf{
+    border-color: green;
 }
 
 .bi.bi-check-circle{
     color: green;
-    font-size: 30px;
-    margin-right: 15px;
 }
 
 .col-msg{
-    margin: 5px;
-    padding: 15px;
-    border: 1px solid blue;
-    text-align: center;
+    border-color: blue;
 }
 
 .bi.bi-dash-circle{
     color: blue;
-    font-size: 30px;
-    margin-right: 15px;
 }
 
 .col-aviso{
-    margin: 5px;
-    padding: 15px;
-    border: 1px solid red;
-    text-align: center;
+    border-color: red;
 }
 
 .bi.bi-exclamation-circle{
     color: red;
-    font-size: 30px;
-    margin-right: 15px;
 }
