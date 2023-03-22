@@ -1,0 +1,42 @@
+h1{
+    text-align: center;
+}
+
+.col-conf{
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid green;
+    text-align: center;
+}
+
+.bi.bi-check-circle{
+    color: green;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.col-msg{
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.bi.bi-dash-circle{
+    color: blue;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.col-aviso{
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.bi.bi-exclamation-circle{
+    color: red;
+    font-size: 30px;
+    margin-right: 15px;
+}
