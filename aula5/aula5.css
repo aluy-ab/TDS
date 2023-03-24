@@ -1,0 +1,35 @@
+body{
+    margin-bottom: 1000px;
+}
+
+.pai{
+    font-size: 20px;
+    border: 2px solid plum;
+    height: 900px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.testeDiv1{
+    background-color: indianred;
+    height: 200px;
+    width:200px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    font-size: .5em;
+    /*display: inline-block;*/
+}
+
+.testeDiv2, .testeDiv{
+    border: 1px solid cornflowerblue;
+    background-color: cadetblue;
+    height: 200px;
+    width: 200px;
+    font-size: .5em;
+    /*display: inline-block;*/
+}
