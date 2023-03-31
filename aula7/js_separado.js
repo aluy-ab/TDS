@@ -12,3 +12,26 @@ function changeFoto(){
 function changeFoto2(){
     document.getElementById("foto").setAttribute("src","imgs/o-gato-bravo.jpg");
 }
+
+//Higher-Order Function: passada por parâmetro
+function run(fn){
+    fn();
+}
+
+function imprime(){
+    console.log("Olá");
+}
+
+run(imprime);
+
+//Higher-Order Function: retornada
+//técnica de Curring
+function precoFinal(taxa){
+    return function(preco){
+        return preco * (1 + taxa);
+    }
+}
+
+let x = precoFinal(0.085);
+
+console.log(x(25.1));
