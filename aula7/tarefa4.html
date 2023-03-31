@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefa 4</title>
+
+    <script type="text/javascript" src="tarefa4.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="tarefa4.css">
+
+</head>
+<body>
+
+    <h1>Calculadora</h1>
+
+    <div class="col-4 mb-3">
+        <form>
+            <div class="row">
+                <div class="col-6 mb-3">
+                    <label class="form-label">Número 1:</label>
+                    <input type="number" class="form-control" id="n1">
+                </div>
+
+                <div class="col-6 mb-3">
+                    <label class="form-label">Número 2:</label>
+                    <input type="number" class="form-control" id="n2">
+                </div>
+            </div>
+
+            <label class="form-label">Operação:</label>
+
+            <div class="row col-8">
+                <div class="col-2 mb-3">
+                    <button type="button" class="btn btn-primary" onclick="add();">+</button>
+                </div>
+
+                <div class="col-2 mb-3">
+                    <button type="button" class="btn btn-primary" onclick="sub();">-</button>
+                </div>
+
+                <div class="col-2 mb-3">
+                    <button type="button" class="btn btn-primary" onclick="mult();">x</button>
+                </div>
+
+                <div class="col-2 mb-3">
+                    <button type="button" class="btn btn-primary" onclick="div();">/</button>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-7">
+                    <label class="form-label">Resultado:</label>
+                    <input type="number" class="form-control" id="result" readonly>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
