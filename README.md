@@ -15,6 +15,6 @@ aula4 (22/03) - ícones do bootstrap e exercícios
 
 aula5 (24/03) - display, position e unidades de medida do bootstrap
 
-aula6 (29/05) - formulários com bootstrap e javascript
+aula6 (29/03) - formulários com bootstrap e javascript
 
-aula7 (31/05) - continuação aula 6 (javascript) e tarefa 4
+aula7 (31/03) - continuação aula 6 (javascript) e tarefa 4
