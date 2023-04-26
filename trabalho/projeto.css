@@ -1,0 +1,57 @@
+.navbar{
+    border: 1px solid grey;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.nav-link{
+    color: rgb(50, 124, 126);
+}
+
+.sec{
+    color:black;
+}
+
+.btn-outline-secondary{
+    border-color: cadetblue;
+    color: cadetblue;
+}
+
+.btn-secondary{
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+h1{
+    text-align: center;
+    color:cadetblue;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.intro{
+    text-align: center;
+    border-bottom: 1px solid grey;
+}
+
+.texto-intro{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.btn-link{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: grey;
+    margin-bottom: 140px;
+}
+
+.d-flex{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 1150px;
+}
