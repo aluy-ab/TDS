@@ -1,0 +1,45 @@
+.navbar{
+    border: 1px solid grey;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.nav-link{
+    color: rgb(50, 124, 126);
+}
+
+.sec{
+    color:black;
+}
+
+.btn-outline-secondary{
+    border-color: cadetblue;
+    color: cadetblue;
+}
+
+.btn-secondary{
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+#cadastro{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+h1{
+    color:cadetblue;
+    margin-bottom: 20px;
+}
+
+.mb-3{
+    margin-right: 50px;;
+}
+
+.btn-secondary{
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
