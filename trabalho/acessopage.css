@@ -1,0 +1,46 @@
+.navbar{
+    border: 1px solid grey;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    color: cadetblue;
+}
+
+.nav-link{
+    color: rgb(50, 124, 126);
+}
+
+.sec{
+    color:black;
+}
+
+.btn-outline-secondary{
+    border-color: cadetblue;
+    color: cadetblue;
+}
+
+.btn-secondary{
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+.camera{
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.ver{
+    border-bottom: 2px solid cadetblue;
+    border-top: 2px solid cadetblue;
+    border-left: 2px solid cadetblue;
+    border-right: 2px solid cadetblue;
+    height: 500px;
+}
+
+.entrar{
+    margin-top: 50px;
+    margin-left: 400px;
+}

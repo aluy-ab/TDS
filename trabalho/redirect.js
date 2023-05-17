@@ -9,3 +9,18 @@ function redirect_main() {
 function redirect_cadastro() {
     location.href = "cadastropage.html";
 }
+
+function redirect_pacotes() {
+    alert("Pacotes a serem definidos em breve!");
+}
+
+function redirect_acessar() {
+    location.href = "acessopage.html"
+}
+
+function checkdata() {
+    let senha = document.getElementsByClassName("form-control").value;
+    if (senha == null) {
+        alert("Não é possível entrar sem dados");
+    }
+}

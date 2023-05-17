@@ -35,7 +35,7 @@ h1{
 .intro{
     background-color:cadetblue;
     text-align: center;
-    border-bottom: 1px solid grey;
+    border-bottom: 99px solid cadetblue;
     border-top: 99px solid cadetblue;
 }
 
@@ -54,6 +54,7 @@ h1{
 }
 
 .row{
+    border-top: 1px solid grey;
     margin-left: 50px;
 }
 
