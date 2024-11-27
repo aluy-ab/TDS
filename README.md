@@ -1,5 +1,5 @@
 # TDS
-códigos das aulas de TDS (4o ano de CC)
+códigos das aulas de TDS (4o ano Ciência da Computação)
 
 ________________________________________________________________________________
 
